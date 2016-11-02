@@ -1,0 +1,6 @@
+RewriteEngine On
+
+RewriteCond $1 !^(index\.php|css|documentos|reportes|highcharts|files|contratos|images|js|modalfiles|simplemodal|windowfiles|robots\.txt|phpinfo\.php)
+RewriteRule ^(.*)$ /maharasperu/index.php/$1 [L]
+
+Allow from all

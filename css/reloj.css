@@ -1,0 +1,40 @@
+#clock {
+    width: 100%;
+    font-size: 4em;
+    color: white;
+}
+
+#fecha {
+	font-size: 18px;
+	color: #0E417A;
+	margin-top: 3px;
+}
+
+.general {
+	text-align: left;
+	display: inline-block;
+	background-color: black;
+	width: 30%;
+	padding: 18px;
+  margin-top: 10px;
+  margin-left: 240px;
+}
+
+.image {
+	height: 95px;
+	display: inline;
+	width: 93px;
+   	position: absolute;
+   	border: 2px solid red;
+   	margin-top: 10px;
+   	margin-left: 20px;
+}
+
+.text_foto {
+	display: inline;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 53px;
+    color: #0E417A;
+    font-weight: bold;
+}
